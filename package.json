@@ -1,0 +1,38 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello World App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.3.0",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "com.ejemplo.holamundo",
+    "productName": "HelloWorldApp,seriously",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "category": "Utilities",
+      "target": [
+        "dmg"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  }
+  
+}
