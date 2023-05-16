@@ -111,45 +111,6 @@ npm run build:mac
 ```
 
 
-## Tech Stack
-
-**Client:** HTML, CSS3, JavaScript
-
-**Server:** --
-
-
-## Installation
-
-Clone the repository: 
-```git
-  git clone https://github.com/franvozzi/Judo-Landing-Page/
-```
-    
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-Contributing
-To contribute to this project, follow these steps:
-
-Fork this repository.
-Clone the forked repository to your local machine: ```git clone https://github.com/your-username/this-project.git```
-
-Create a new branch for your feature: ```git checkout -b new-feature```
-
-Make necessary changes and commit: ```git commit -am "Add new feature"```
-
-Push to the branch: ```git push origin new-feature```
-
-Create a pull request on GitHub.
-
-Please make sure to update the README and any other relevant documentation with any changes made.
-
-
 ## Authors
 
 - [@franvozzi](https://www.github.com/franvozzi)
